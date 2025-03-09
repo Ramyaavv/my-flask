@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Hello from Flask on Vercel!"})
+    return jsonify({"message": "Hey cool babe u can do it!"})
 
 if __name__ == "__main__":
     app.run(debug=True)
